@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projekt Urszula Zachara</title>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #FFDA98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+h2{
+    font-size: 3em;
+    color:rgb(41, 41, 24);
+    margin: 15px 0;
+    margin-left: 70px;
+}
+
+#btn{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    font-size: 1.2em;
+    color: rgb(179, 179, 179);
+    background-color: rgb(41, 41, 24);
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
+}
+
+#name{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    font-size: 1.2em;
+    color: rgb(179, 179, 179);
+    background-color: rgb(41, 41, 24);
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
+    text-align: center;
+    
+}
+</style>
+
+</head>
+
+<body>
+    <div>
+        <h2 class="tekst1">Jak się nazywasz?</h2>
+        <input type="text" id="name"></input>
+        <img class="gif" src="gif.gif">
+        <button id="btn">START</button>
+        
+
+    </div>
+    <script>
+        document.getElementById("btn").onclick = function () {
+        location.href = "skrypt3.html";}
+    </script>
+
+</body>
+
+</html>
